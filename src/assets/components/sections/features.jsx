@@ -33,7 +33,7 @@ export default function Features() {
     },
     {
       title: 'Комиссия',
-      description: 'Рассчитывает комиссию Kaspi, чтобы вы понимали, сколько остается на руки',
+      description: 'Рассчитывает комиссию Kaspi, чтобы вы понимали, сколько зарабатываете в моменте',
       icon: <Calculator className='h-6 w-6 text-red-600' />,
     },
     {
@@ -43,12 +43,13 @@ export default function Features() {
     },
     {
       title: 'Управление возвратами',
-      description: 'Отслеживание новых заявок, доставки, решений, споров и закрытых заявок',
+      description:
+        'Отслеживание новых заявок, доставки, решений, споров и закрытых заявок с возможностью добавления комментариев',
       icon: <RefreshCcw className='h-6 w-6 text-red-600' />,
     },
     {
       title: 'WhatsApp интеграция',
-      description: 'Автоматические рассылки клиентам для повышения продаж',
+      description: 'Автоматические рассылки клиентам для повышения продаж и положительных отзывов',
       icon: <MessageCircle className='h-6 w-6 text-red-600' />,
     },
     {
